@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
+<script>
+    function showMessage(){
+        alert("xin chao")
+    }
+    function showMessage2(){
+        document.getElementById("mesdiv").innerHTML="xin chao"
+    }
+    function showMessage3(){
+        document.write("xinchao")
+    }
+    function showMessage4(){
+        console.log("xinchao")
+    }
+</script>
 <body>
-$END$
+<button onclick="showMessage()">Alert</button>
+<button onclick="showMessage2()">innerHTML</button>
+<div id="mesdiv"></div>
+<button onclick="showMessage3()">write</button>
+<button onclick="showMessage4()">console</button>
 </body>
 </html>
