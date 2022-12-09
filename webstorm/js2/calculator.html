@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<fieldset><legend>Calculator</legend>
+<table style="width: 100%">
+    <tr>
+        <input type="number" id="num1">
+        <input type="number" id="num2">
+    </tr>
+    <tr>
+        <td>
+            <button onclick="plus()">+</button>
+        </td>
+        <td>
+            <button onclick="minus()">-</button>
+        </td>
+        <td>
+            <button onclick="mul()">x</button>
+        </td>
+        <td>
+            <button onclick="div()">/</button>
+        </td>
+    </tr>
+    <tr>
+        <td id="result" colspan="4"></td>
+    </tr>
+</table>
+</fieldset>
+</body>
+<script src="calculator.js"></script>
+</html>
