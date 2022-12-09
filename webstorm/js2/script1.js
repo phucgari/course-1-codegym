@@ -13,3 +13,12 @@ function fahtocel() {
     let celcalced=((+document.getElementById("Fah").value)-32)*5/9;
     alert("your result is: " + celcalced + " Celsius")
 }
+
+function perimeter(){
+    let peri=(+document.getElementById("radius").value)*Math.PI*2;
+    alert(peri)
+}
+function area(){
+    let area=Math.pow(+document.getElementById("radius").value,2)*Math.PI;
+    alert(area)
+}
